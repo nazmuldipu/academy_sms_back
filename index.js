@@ -11,8 +11,10 @@ app.get("/", (req, res) => {
   res.send({ message: "Weclome to Node REST API" });
 });
 
-const server = app.listen(port, () => {
-  winston.info(`Listening on port ${port}...`);
-});
+// const server = app.listen(port, () => {
+//   winston.info(`Listening on port ${port}...`);
+// });
 
-module.exports = server;
+// module.exports = server;
+
+app.listen(port, () => console.log(`Server is running in port ${port}`));
