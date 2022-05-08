@@ -1,4 +1,4 @@
 {
   "jwtPrivateKey": "abc",
-  "db": "mongodb://localhost/academy_sms_test"
+  "db": "mongodb+srv://nazmuldipu:owiNh1teUvZl0KQi@sandbox.qotte.mongodb.net/academy_sms_test?retryWrites=true&w=majority"
 }
